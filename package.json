@@ -1,0 +1,22 @@
+{
+	"name": "poolchain",
+	"version": "0.0.1",
+	"author": "Petr Cechura",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/mocha": "^2.2.42",
+		"@types/node": "^7.0.0",
+		"chai": "^4.1.2",
+		"eslint": "^4.10.0",
+		"lerna": "^2.2.0",
+		"mocha": "^3.5.3"
+	},
+	"scripts": {
+		"lint": "eslint . --cache --ext js,md",
+		"test": "lerna run test"
+	},
+	"dependencies": {
+		"eslint-plugin-markdown": "^1.0.0-beta.6",
+		"mocha-eslint": "^4.1.0"
+	}
+}
